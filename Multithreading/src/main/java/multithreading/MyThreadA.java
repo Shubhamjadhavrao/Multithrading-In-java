@@ -16,7 +16,7 @@ public class MyThreadA implements Runnable {
 			try {
 				Thread.sleep(2000);
 				
-			} catch ( InterruptedException e) {
+			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 			System.out.println(i+ " "+Thread.currentThread().getName());
